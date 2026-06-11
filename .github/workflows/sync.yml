@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install deps
-        run: pip install garminconnect
+        run: pip install garminconnect garth
       - name: Pull Garmin data
         env:
           GARTH_TOKEN: ${{ secrets.GARTH_TOKEN }}
