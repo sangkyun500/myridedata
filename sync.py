@@ -11,7 +11,7 @@ def login():
     tok = os.environ.get("GARTH_TOKEN")
     if not tok:
         sys.exit("GARTH_TOKEN 시크릿이 없습니다.")
-    garth.client.loads(base64.b64decode(tok).decode())
+    garth.client.loads(tok)
 
 def fetch():
     cutoff = datetime.now() - timedelta(days=365 * YEARS)
