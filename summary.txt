@@ -1,0 +1,6 @@
+updated: 2026-06-11 13:54
+rides_2y: 421
+est_ftp_w: 229 (window 90d)
+ctl: 40.1
+atl: 31.1
+tsb: +5.2
